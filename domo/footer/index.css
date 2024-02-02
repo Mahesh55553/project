@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 250px;
+    width: 100%; 
+    
+}
+.cade{
+    padding: 10px;
+    height: 65%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(149, 138, 138);
+
+
+}
+.location{
+    height: 100%;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: center;
+}
+.sub{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top:1px solid white ;
+    background-color: rgb(149, 138, 138);
+}
+.icons{
+    display: flex;
+    gap:20px
+}
+@media screen and (max-width: 900px){
+    .cade{
+        flex-wrap: wrap;
+    }
+    .sub{
+        flex-wrap: wrap;
+    }
+} 
+
+    
